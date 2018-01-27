@@ -26,6 +26,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'rack-cors'
 gem 'pry-rails'
 gem 'devise_token_auth'
+gem 'figaro'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

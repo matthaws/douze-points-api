@@ -32,7 +32,7 @@ module DouzePointsApi
 
     config.middleware.use Rack::Cors do
      allow do
-       origins '*'
+       origins 'localhost:3002'
        resource '*',
          :headers => :any,
          :expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
@@ -43,6 +43,7 @@ module DouzePointsApi
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore,
       key: '_douze_points', expire_after: 30.days
+    config.middleware.use ActionDispatch::Flash
 
   end
 end

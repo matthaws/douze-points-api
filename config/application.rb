@@ -30,16 +30,6 @@ module DouzePointsApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.middleware.insert_before 0, Rack::Cors do
-     allow do
-       origins 'http://localhost:3002'
-       resource '*',
-         :headers => :any,
-         :expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
-         :methods => [:get, :post, :options, :delete, :put]
-      end
-    end
-
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore,
       key: '_douze_points', expire_after: 30.days

@@ -1,14 +1,14 @@
 class User < ApplicationRecord
   validates :username, presence: true
-  
-  def self.from_omniauth(auth)
-    self.where(provider: auth.provider, uid: auth.uid).first_or_initialize.tap do |user|
-      user.email = auth.info.email
-      user.uid = auth.uid
-      user.provider = auth.provider
-      user.avatar_url = auth.info.image
-      user.username = auth.info.name
-      user.oauth_token = auth.credentials.token
+
+  def self.from_facebook(graph)
+    uid = graph.get_object('me')['id']
+    username = graph.get_object('me')['name']
+    photo_url = graph.get_picture_data('me')['url']
+    self.where(uid: uid).first_or_initialize.tap do |user|
+      user.uid = uid
+      user.username = username
+      user.avatar_url = photo_url
       user.save!
     end
   end

@@ -1,8 +1,10 @@
 class AuthController < ApplicationController
   def create
-    @user = User.from_omniauth(request.env["omniauth.auth"])
+    @graph = Koala::Facebook::API.new(request.params['token'])
+    debugger
+    @user = User.from_facebook(@graph)
     if @user.persisted?
-      @token = JWTAuth.encode(@user.username)
+      @token = JWTAuth.encode(@user.uid)
       render 'users/show'
     else
       render json: { errors: ['Invalid Credentials'] }, status: 422

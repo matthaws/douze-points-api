@@ -30,9 +30,9 @@ module DouzePointsApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.middleware.use Rack::Cors do
+    config.middleware.insert_before 0, Rack::Cors do
      allow do
-       origins 'localhost:3002'
+       origins 'http://localhost:3002'
        resource '*',
          :headers => :any,
          :expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],

@@ -9,12 +9,4 @@ class AuthController < ApplicationController
       render json: { errors: ['Invalid Credentials'] }, status: 422
     end
   end
-
-  def show
-    if current_user
-      render 'users/show'
-    else
-      render json: { errors: ['No current users']}, status: 401
-    end
-  end
 end

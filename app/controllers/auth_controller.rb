@@ -1,6 +1,6 @@
 class AuthController < ApplicationController
   def create
-    @graph = Koala::Facebook::API.new(request.params['token'])
+    @graph = Koala::Facebook::API.new(request.headers['Authorization'])
     @user = User.from_facebook(@graph)
     if @user.persisted?
       @token = JWTAuth.encode(@user.uid)
@@ -8,9 +8,5 @@ class AuthController < ApplicationController
     else
       render json: { errors: ['Invalid Credentials'] }, status: 422
     end
-  end
-
-  def destroy
-    reset_session
   end
 end

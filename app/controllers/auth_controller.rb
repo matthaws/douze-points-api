@@ -9,4 +9,9 @@ class AuthController < ApplicationController
       render json: { errors: ['Invalid Credentials'] }, status: 422
     end
   end
+
+  def show
+    @user = current_user
+    render 'users/show'
+  end
 end

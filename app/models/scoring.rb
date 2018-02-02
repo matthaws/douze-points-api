@@ -26,4 +26,6 @@ class Scoring < ApplicationRecord
     self.scoresheet.user
   end
 
+  has_many :comments, as: :commentable
+
 end

@@ -1,13 +1,15 @@
 # == Schema Information
 #
-# Table name: countries
+# Table name: comments
 #
-#  id         :integer          not null, primary key
-#  name       :string           not null
-#  flag_url   :string
-#  big_five   :boolean          default(FALSE)
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
+#  id               :integer          not null, primary key
+#  body             :text             not null
+#  parent_id        :integer
+#  commentable_type :string
+#  commentable_id   :integer
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  user_id          :integer          not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

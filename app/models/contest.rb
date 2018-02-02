@@ -23,4 +23,6 @@ class Contest < ApplicationRecord
 
   has_many :scoresheets
 
+  has_many :comments, as: :commentable
+
 end

@@ -22,6 +22,8 @@ class User < ApplicationRecord
 
   has_many :scorings, through: :scoresheets
 
+  has_many :comments
+
   def self.from_facebook(graph)
     uid = graph.get_object('me')['id']
     username = graph.get_object('me')['name']

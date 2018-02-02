@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180202193218) do
+ActiveRecord::Schema.define(version: 20180202202130) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "comments", force: :cascade do |t|
+    t.text "body", null: false
+    t.integer "parent_id"
+    t.string "commentable_type"
+    t.bigint "commentable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
+    t.index ["commentable_type", "commentable_id"], name: "index_comments_on_commentable_type_and_commentable_id"
+  end
 
   create_table "contests", force: :cascade do |t|
     t.integer "year", null: false
@@ -24,6 +35,15 @@ ActiveRecord::Schema.define(version: 20180202193218) do
     t.datetime "updated_at", null: false
     t.index ["host_country_id"], name: "index_contests_on_host_country_id"
     t.index ["winning_entry_id"], name: "index_contests_on_winning_entry_id"
+  end
+
+  create_table "countries", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "flag_url"
+    t.boolean "big_five", default: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_countries_on_name"
   end
 
   create_table "entries", force: :cascade do |t|

@@ -1,18 +1,18 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: scorings
 #
-#  id          :integer          not null, primary key
-#  username    :string
-#  bio         :text
-#  avatar_url  :string
-#  email       :string
-#  uid         :string
-#  provider    :string
-#  oauth_token :string
-#  string      :string
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
+#  id            :integer          not null, primary key
+#  scoresheet_id :integer
+#  entry_id      :integer
+#  song_score    :integer
+#  dance_score   :integer
+#  cheese_score  :integer
+#  bonus_points  :integer
+#  bonus_comment :text
+#  score_note    :text
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

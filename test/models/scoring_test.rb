@@ -13,6 +13,7 @@
 #  updated_at    :datetime         not null
 #  scoresheet_id :integer          not null
 #  entry_id      :integer          not null
+#  costume_score :integer
 #
 
 require 'test_helper'

@@ -16,8 +16,8 @@
 #
 
 class Entry < ApplicationRecord
-  validates :country_id, :contest_id, presence: true
-  validates_uniqueness_of :country_id, scope: :contest_id
+  validates :country, :contest, presence: true
+  validates_uniqueness_of :country, scope: :contest
 
   belongs_to :country
 
@@ -26,6 +26,7 @@ class Entry < ApplicationRecord
   has_many :entries
 
   has_many :comments, as: :commentable
+
 
 
 end

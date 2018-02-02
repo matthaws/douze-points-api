@@ -13,10 +13,10 @@
 #
 
 class Comment < ApplicationRecord
-  validates :body, :user_id, presence: true
+  validates :body, :user, presence: true
 
   belongs_to :commentable, polymorphic: true
 
-  
+
 
 end

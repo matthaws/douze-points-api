@@ -12,12 +12,15 @@
 #
 
 class Scoresheet < ApplicationRecord
-  validates :user_id, :name, :contest_id, presence: true
+  validates :user, :name, :contest, presence: true
 
   belongs_to :user
 
   belongs_to :contest
 
   has_many :scorings, dependent: :destroy
+
+  has_many :comments, as: :commentable
+
 
 end

@@ -18,6 +18,6 @@ class Scoresheet < ApplicationRecord
 
   belongs_to :contest
 
-  has_many :scorings
+  has_many :scorings, dependent: :destroy
 
 end

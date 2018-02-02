@@ -22,6 +22,8 @@ class Scoring < ApplicationRecord
 
   belongs_to :entry
 
-  belongs_to :user, through: :scoresheet
+  def user
+    self.scoresheet.user
+  end
 
 end

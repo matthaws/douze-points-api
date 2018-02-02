@@ -13,6 +13,7 @@
 #  updated_at    :datetime         not null
 #  country_id    :integer          not null
 #  contest_id    :integer          not null
+#  language      :string
 #
 
 class Entry < ApplicationRecord

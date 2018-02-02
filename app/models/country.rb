@@ -12,7 +12,7 @@
 
 class Country < ApplicationRecord
   validates :name, presence: true
-  validates :country, uniqueness: true
+  validates :name, uniqueness: true
 
   has_many :entries
 

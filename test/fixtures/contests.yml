@@ -1,18 +1,14 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: contests
 #
-#  id          :integer          not null, primary key
-#  username    :string
-#  bio         :text
-#  avatar_url  :string
-#  email       :string
-#  uid         :string
-#  provider    :string
-#  oauth_token :string
-#  string      :string
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
+#  id               :integer          not null, primary key
+#  year             :integer          not null
+#  winning_entry_id :integer
+#  location         :string
+#  host_country_id  :integer          not null
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

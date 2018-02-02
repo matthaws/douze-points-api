@@ -3,8 +3,6 @@
 # Table name: scorings
 #
 #  id            :integer          not null, primary key
-#  scoresheet_id :integer
-#  entry_id      :integer
 #  song_score    :integer
 #  dance_score   :integer
 #  cheese_score  :integer
@@ -13,6 +11,8 @@
 #  score_note    :text
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
+#  scoresheet_id :integer          not null
+#  entry_id      :integer          not null
 #
 
 class Scoring < ApplicationRecord
@@ -21,5 +21,7 @@ class Scoring < ApplicationRecord
   belongs_to :scoresheet
 
   belongs_to :entry
+
+  belongs_to :user, through: :scoresheet
 
 end

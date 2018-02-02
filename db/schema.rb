@@ -10,25 +10,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180202171555) do
+ActiveRecord::Schema.define(version: 20180202191505) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "entries", force: :cascade do |t|
+    t.string "artist"
+    t.string "song_title"
+    t.integer "final_score"
+    t.integer "final_ranking"
+    t.string "video_url"
+    t.boolean "finalist", default: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "country_id", null: false
+    t.integer "contest_id", null: false
+  end
+
   create_table "scoresheets", force: :cascade do |t|
-    t.integer "user_id"
-    t.string "name"
-    t.integer "contest_id"
     t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["contest_id"], name: "index_scoresheets_on_contest_id"
-    t.index ["user_id", "contest_id"], name: "index_scoresheets_on_user_id_and_contest_id"
+    t.integer "user_id", null: false
+    t.string "name", null: false
+    t.integer "contest_id", null: false
   end
 
   create_table "scorings", force: :cascade do |t|
-    t.integer "scoresheet_id"
-    t.integer "entry_id"
     t.integer "song_score"
     t.integer "dance_score"
     t.integer "cheese_score"
@@ -37,7 +46,8 @@ ActiveRecord::Schema.define(version: 20180202171555) do
     t.text "score_note"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["scoresheet_id", "entry_id"], name: "index_scorings_on_scoresheet_id_and_entry_id"
+    t.integer "scoresheet_id", null: false
+    t.integer "entry_id", null: false
   end
 
   create_table "users", force: :cascade do |t|

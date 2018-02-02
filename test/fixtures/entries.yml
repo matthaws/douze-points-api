@@ -1,18 +1,18 @@
 # == Schema Information
 #
-# Table name: scorings
+# Table name: entries
 #
 #  id            :integer          not null, primary key
-#  song_score    :integer
-#  dance_score   :integer
-#  cheese_score  :integer
-#  bonus_points  :integer
-#  bonus_comment :text
-#  score_note    :text
+#  artist        :string
+#  song_title    :string
+#  final_score   :integer
+#  final_ranking :integer
+#  video_url     :string
+#  finalist      :boolean          default(FALSE)
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
-#  scoresheet_id :integer          not null
-#  entry_id      :integer          not null
+#  country_id    :integer          not null
+#  contest_id    :integer          not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

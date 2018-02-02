@@ -20,6 +20,8 @@ class User < ApplicationRecord
 
   has_many :scoresheets, dependent: :destroy
 
+  has_many :scorings, through: :scoresheets
+
   def self.from_facebook(graph)
     uid = graph.get_object('me')['id']
     username = graph.get_object('me')['name']

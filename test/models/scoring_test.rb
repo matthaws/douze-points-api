@@ -3,8 +3,6 @@
 # Table name: scorings
 #
 #  id            :integer          not null, primary key
-#  scoresheet_id :integer
-#  entry_id      :integer
 #  song_score    :integer
 #  dance_score   :integer
 #  cheese_score  :integer
@@ -13,6 +11,8 @@
 #  score_note    :text
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
+#  scoresheet_id :integer          not null
+#  entry_id      :integer          not null
 #
 
 require 'test_helper'

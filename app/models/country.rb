@@ -16,11 +16,12 @@ class Country < ApplicationRecord
 
   has_many :entries
 
-  has_many :contests,
+  has_many :hosted_contests,
+    class_name: :Contest
     foreign_key: :host_country_id
 
   def contest_wins
-    #should return those entries WHERE contest.winning_entry_id == country.id
+    self.entries.where(final_ranking: 1)
   end
 
 end

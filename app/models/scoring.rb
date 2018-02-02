@@ -18,7 +18,15 @@
 
 class Scoring < ApplicationRecord
   validates :scoresheet, :entry, presence: true
-  validates :song_score, :dance_score, :cheese_score, :costume_score, inclusion: { in: (0..12).to_a, allow_nil: true, message: "Value must be between zero and douze points" }
+  validates :song_score,
+            :dance_score,
+            :cheese_score,
+            :costume_score,
+              inclusion: {
+                in: (0..12).to_a,
+                allow_nil: true,
+                message: "Value must be between zero and douze points"
+              }
 
   belongs_to :scoresheet
 

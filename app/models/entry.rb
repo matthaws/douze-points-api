@@ -24,8 +24,6 @@ class Entry < ApplicationRecord
 
   belongs_to :contest
 
-  has_many :entries
-
   has_many :comments, as: :commentable
 
 

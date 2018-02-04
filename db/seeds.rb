@@ -9,6 +9,8 @@
 amazon_path = "https://s3.amazonaws.com/douze-points-dev/"
 
 Country.destroy_all
+Contest.destroy_all
+Entry.destroy_all
 
 albania = Country.create!(name: "Albania", flag_url: "#{amazon_path}flags/Albania.jpg")
 armenia = Country.create!(name: "Armenia", flag_url: "#{amazon_path}flags/Armenia.jpg")
@@ -16,7 +18,7 @@ australia = Country.create!(name: "Australia", flag_url: "#{amazon_path}flags/Au
 azerbaijan = Country.create!(name: "Azerbaijan", flag_url: "#{amazon_path}flags/Azerbaijan.jpg")
 belarus = Country.create!(name: "Belarus", flag_url: "#{amazon_path}flags/Belarus.jpg")
 belgium = Country.create!(name: "Belgium", flag_url: "#{amazon_path}flags/Belgium.jpg")
-bulgaria = Country.create!(name: "Bulgaria", flag_url: flag_url: "#{amazon_path}flags/Bulgaria.jpg")
+bulgaria = Country.create!(name: "Bulgaria", flag_url: "#{amazon_path}flags/Bulgaria.jpg")
 croatia = Country.create!(name: "Croatia", flag_url: "#{amazon_path}flags/Croatia.jpg")
 cyprus = Country.create!(name: "Cyprus", flag_url: "#{amazon_path}flags/Cyprus.jpg")
 czech = Country.create!(name: "Czech Republic", flag_url: "#{amazon_path}flags/Czech_Republic.jpg")

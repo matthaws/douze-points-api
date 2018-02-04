@@ -15,6 +15,7 @@ Entry.destroy_all
 albania = Country.create!(name: "Albania", flag_url: "#{amazon_path}flags/Albania.jpg")
 armenia = Country.create!(name: "Armenia", flag_url: "#{amazon_path}flags/Armenia.jpg")
 australia = Country.create!(name: "Australia", flag_url: "#{amazon_path}flags/Australia.jpg")
+austria = Country.create!(name: "Austria", flag_url: "#{amazon_path}flags/Austria.jpg")
 azerbaijan = Country.create!(name: "Azerbaijan", flag_url: "#{amazon_path}flags/Azerbaijan.jpg")
 belarus = Country.create!(name: "Belarus", flag_url: "#{amazon_path}flags/Belarus.jpg")
 belgium = Country.create!(name: "Belgium", flag_url: "#{amazon_path}flags/Belgium.jpg")

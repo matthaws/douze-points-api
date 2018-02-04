@@ -17,7 +17,7 @@ class Country < ApplicationRecord
   has_many :entries
 
   has_many :hosted_contests,
-    class_name: :Contest
+    class_name: :Contest,
     foreign_key: :host_country_id
 
   def contest_wins

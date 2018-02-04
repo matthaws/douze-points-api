@@ -21,7 +21,7 @@ class Country < ApplicationRecord
     foreign_key: :host_country_id
 
   def contest_wins
-    self.entries.where(final_ranking: 1)
+    self.entries.where(final_ranking: 1)th
   end
 
 end

@@ -13,7 +13,7 @@
 
 class Contest < ApplicationRecord
   validates :year, :host_country, presence: true
-  validates_uniqueness_of :winning_entry, scope: :year
+  # validates_uniqueness_of :winning_entry, scope: :year, allow_nil: true
 
   belongs_to :host_country,
     class_name: :Country,

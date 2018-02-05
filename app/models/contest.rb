@@ -15,14 +15,15 @@ class Contest < ApplicationRecord
   validates :year, :host_country, presence: true
   validates_uniqueness_of :winning_entry, scope: :year
 
-  has_one :host_country,
+  belongs_to :host_country,
     class_name: :Country,
     foreign_key: :host_country_id
 
   has_many :entries
 
-  has_one :winning_entry,
-    class_name: :Entry
+  belongs_to :winning_entry,
+    class_name: :Entry,
+    optional: true
 
   has_many :scoresheets
 

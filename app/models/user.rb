@@ -27,6 +27,7 @@ class User < ApplicationRecord
   def self.from_facebook(graph)
     uid = graph.get_object('me')['id']
     username = graph.get_object('me')['name']
+    debugger
     photo_url = graph.get_picture_data('me')['data']['url']
     self.where(uid: uid).first_or_initialize.tap do |user|
       user.uid = uid

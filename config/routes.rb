@@ -6,8 +6,10 @@ Rails.application.routes.draw do
 
 
   resources :user, only: [] do
-    resources :scoresheets, defaults: { format: :json }
+    resources :scoresheets, only: [:index, :create], defaults: { format: :json }
   end
+
+  resources :scoresheets, only: [:show, :destroy, :update], defaults: { format: :json }
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

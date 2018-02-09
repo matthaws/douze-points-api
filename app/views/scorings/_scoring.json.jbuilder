@@ -1,4 +1,5 @@
-json.extract! scoring,  :song_score,
+json.extract! scoring,  :id,
+                        :song_score,
                         :dance_score,
                         :costume_score,
                         :cheese_score,

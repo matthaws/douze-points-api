@@ -1,4 +1,4 @@
-class ScoresheetController < ApplicationController
+class ScoresheetsController < ApplicationController
 
   def index
     @scoresheets = User.find(params[:user_id]).scoresheets

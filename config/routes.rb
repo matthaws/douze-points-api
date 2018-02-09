@@ -4,7 +4,10 @@ Rails.application.routes.draw do
     get "/auth", to: "auth#show"
   end
 
-  resources :scoresheets, defaults: { format: :json }
+
+  resources :user, only: [] do
+    resources :scoresheets, defaults: { format: :json }
+  end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

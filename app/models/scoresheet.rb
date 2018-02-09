@@ -22,5 +22,6 @@ class Scoresheet < ApplicationRecord
 
   has_many :comments, as: :commentable
 
+  has_many :entries, through: :scorings, source: :entry
 
 end

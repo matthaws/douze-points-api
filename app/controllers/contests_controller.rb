@@ -10,7 +10,7 @@ class ContestsController < ApplicationController
   end
 
   def index
-
+    @contests = Contest.all
   end
 
 

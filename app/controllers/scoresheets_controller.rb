@@ -38,7 +38,7 @@ class ScoresheetsController < ApplicationController
   private
 
   def scoresheet_params
-    params.require(:scoresheet).permit(:type, :user_id, :name, :contest_id)
+    params.require(:scoresheet).permit(:type, :name, :contest_id)
   end
 
 end

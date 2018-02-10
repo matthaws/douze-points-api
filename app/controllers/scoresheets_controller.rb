@@ -9,7 +9,9 @@ class ScoresheetsController < ApplicationController
   end
 
   def create
+    authenticate_user!
     @scoresheet = Scoresheet.new(scoresheet_params)
+    @scoresheet.user = current_user
     if @scoresheet.save
       render :show
     else
@@ -18,6 +20,7 @@ class ScoresheetsController < ApplicationController
   end
 
   def update
+    authenticate_user!
     @scoresheet = Scoresheet.find(params[:id])
     if @scoresheet.update(scoresheet_params)
       render :show
@@ -27,6 +30,7 @@ class ScoresheetsController < ApplicationController
   end
 
   def destroy
+    authenticate_user!
     @scoresheet = Scoresheet.find(params[:id])
     @scoresheet.destroy!
   end

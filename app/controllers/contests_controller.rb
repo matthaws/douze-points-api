@@ -1,7 +1,7 @@
 class ContestsController < ApplicationController
 
   def show
-    @contest = Contest.find_by(year: params[:year])
+    @contest = Contest.includes(:entries).find_by(year: params[:year])
     if @contest
       render :show
     else

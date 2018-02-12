@@ -12,6 +12,7 @@ class AuthController < ApplicationController
 
   def show
     @user = current_user
+    @countries = Country.all
     render 'users/show'
   end
 end

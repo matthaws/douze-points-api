@@ -1,2 +1,2 @@
 json.extract! user, :username, :id, :avatar_url, :email, :bio
-json.scoresheet_ids user user.scoresheets.pluck(:id)
+json.scoresheet_ids user.scoresheets.pluck(:id)

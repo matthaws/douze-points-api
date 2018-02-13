@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     # resources :contests, only: [:index, :show]
     get '/contests/:year', to: 'contests#show'
     get '/contests/', to: 'contests#index'
+    get '/countries', to: 'countries#index'
   end
 
 

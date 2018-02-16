@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     get '/contests/:year', to: 'contests#show'
     get '/contests/', to: 'contests#index'
     resources :entries, only: [:show]
+    resources :scorings, only: [:create, :update, :delete]
   end
 
 

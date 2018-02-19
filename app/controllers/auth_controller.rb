@@ -3,6 +3,7 @@ class AuthController < ApplicationController
     @graph = Koala::Facebook::API.new(request.headers['Authorization'])
     @user = User.from_facebook(@graph)
     if @user.persisted?
+      @countries = []
       @token = JWTAuth.encode(@user.uid)
       render :show
     else
@@ -13,6 +14,6 @@ class AuthController < ApplicationController
   def show
     @user = current_user
     @countries = Country.all
-    render 'users/show'
+    render :show
   end
 end

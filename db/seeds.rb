@@ -10,6 +10,10 @@ amazon_path = "https://s3.amazonaws.com/douze-points-dev/"
 Country.destroy_all
 Contest.destroy_all
 Entry.destroy_all
+User.destroy_all
+Scoresheet.destroy_all
+Scoring.destroy_all
+
 
 albania = Country.create!(name: "Albania", flag_url: "#{amazon_path}heart_flags/albania.png")
 armenia = Country.create!(name: "Armenia", flag_url: "#{amazon_path}heart_flags/armenia.png")

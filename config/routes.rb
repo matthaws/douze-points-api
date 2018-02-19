@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get '/contests/', to: 'contests#index'
     resources :entries, only: [:show]
     resources :scorings, only: [:create, :update, :delete]
+    resources :countries, only:  [:index]
   end
 
 

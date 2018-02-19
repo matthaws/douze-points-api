@@ -3,7 +3,7 @@ class ScoringsController < ApplicationController
   def create
     @scoring = Scoring.new(scoring_params)
     if @scoring.save
-      render json: "scorings/scoring", scoring: @scoring
+      render :show
     else
       render json: @scoring.errors.full_messages, status: 422
     end
@@ -12,7 +12,7 @@ class ScoringsController < ApplicationController
   def update
     @scoring = Scoring.find(params[:id])
     if @scoring.update(scoring_params)
-      render json: "scorings/scoring", scoring: @scoring
+      render :show
     else
       render json: @scoring.errors.full_messages, status: 422
     end

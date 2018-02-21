@@ -1,4 +1,3 @@
-
 json.contest do
   json.partial! "contests/contest", contest: @contest
 end

@@ -1,0 +1,140 @@
+2016
+1	534	21		Ukraine	Jamala	1944
+2	511	13		Australia	Dami Im	Sound Of Silence
+3	491	18		Russia	Sergey Lazarev	You Are The Only One
+4	307	8		Bulgaria	Poli Genova	If Love Was A Crime
+5	261	9		Sweden	Frans	If I Were Sorry
+6	257	11		France	Amir	J'ai cherché
+7	249	26		Armenia	Iveta Mukuchyan	LoveWave
+8	229	12		Poland	Michał Szpak	Color Of Your Life
+9	200	16		Lithuania	Donny Montell	I've Been Waiting For This Night
+10	181	1		Belgium	Laura Tesoro	What's The Pressure
+11	153	3		Netherlands	Douwe Bob	Slow Down
+12	153	22		Malta	Ira Losco	Walk On Walter
+13	151	24		Austria	ZOË	Loin d'ici
+14	135	7		Israel	Hovi Star	Made Of Stars
+15	132	20		Latvia	Justs	Heartbeat
+16	124	6		Italy	Francesca Michielin	No Degree Of Separation
+17	117	4		Azerbaijan	Samra	Miracle
+18	115	15		Serbia	Sanja Vučić ZAA	Goodbye (Shelter)
+19	108	5		Hungary	Freddie	Pioneer
+20	104	23		Georgia	Nika Kocharov and Young Georgian Lolitaz	Midnight Gold
+21	96	14		Cyprus	Minus One	Alter Ego
+22	77	19		Spain	Barei	Say Yay!
+23	73	17		Croatia	Nina Kraljić	Lighthouse
+24	62	25		United Kingdom	Joe and Jake	You're Not Alone
+25	41	2		Czech Republic	Gabriela Gunčíková	I Stand
+26	11	10		Germany	Jamie-Lee	Ghost
+
+2015
+1	365	10		Sweden	Måns Zelmerlöw	Heroes
+2	303	25		Russia	Polina Gagarina	A Million Voices
+3	292	27		Italy	Il Volo	Grande Amore
+4	217	13		Belgium	Loïc Nottet	Rhythm Inside
+5	196	12		Australia	Guy Sebastian	Tonight Again
+6	186	19		Latvia	Aminata	Love Injected
+7	106	4		Estonia	Elina Born & Stig Rästa	Goodbye To Yesterday
+8	102	9		Norway	Mørland & Debrah Scarlett	A Monster Like Me
+9	97	3		Israel	Nadav Guedj	Golden Boy
+10	53	8		Serbia	Bojana Stamenov	Beauty Never Lies
+11	51	23		Georgia	Nina Sublatti	Warrior
+12	49	24		Azerbaijan	Elnur Huseynov	Hour Of The Wolf
+13	44	16		Montenegro	Knez	Adio
+14	39	1		Slovenia	Maraaya	Here For You
+15	35	20		Romania	Voltaj	De La Capat / All Over Again
+16	34	6		Armenia	Genealogy	Face The Shadow
+17	34	26		Albania	Elhaida Dani	I'm Alive
+18	30	7		Lithuania	Monika Linkytė and Vaidas Baumila	This Time
+19	23	15		Greece	Maria Elena Kyriakou	One Last Breath
+20	19	22		Hungary	Boogie	Wars For Nothing
+21	15	21		Spain	Edurne	Amanecer
+22	11	11		Cyprus	John Karayiannis	One Thing I Should Have Done
+23	10	18		Poland	Monika Kuszyńska	In The Name Of Love
+24	5	5		United Kingdom	Electro Velvet	Still In Love With You
+25	4	2		France	Lisa Angell	N'oubliez Pas
+26	0	14		Austria	The Makemakes	I Am Yours
+27	0	17		Germany	Ann Sophie	Black Smoke
+
+2014
+1	290	11		Austria	Conchita Wurst	Rise Like a Phoenix
+2	238	24		Netherlands	The Common Linnets	Calm After The Storm
+3	218	13		Sweden	Sanna Nielsen	Undo
+4	174	7		Armenia	Aram MP3	Not Alone
+5	143	21		Hungary	András Kállay-Saunders	Running
+6	113	1		Ukraine	Mariya Yaremchuk	Tick - Tock
+7	89	15		Russia	Tolmachevy Sisters	Shine
+8	88	5		Norway	Carl Espen	Silent Storm
+9	74	23		Denmark	Basim	Cliche Love Song
+10	74	19		Spain	Ruth Lorenzo	Dancing in the rain
+11	72	18		Finland	Softengine	Something Better
+12	72	6		Romania	Paula Seling & OVI	Miracle
+13	64	20		Switzerland	Sebalter	Hunter Of Stars
+14	62	9		Poland	Donatan & Cleo	My Słowianie - We Are Slavic
+15	58	4		Iceland	Pollapönk	No Prejudice
+16	43	2		Belarus	Teo	Cheesecake
+17	40	26		United Kingdom	Molly	Children of the Universe
+18	39	12		Germany	Elaiza	Is it right
+19	37	8		Montenegro	Sergej Ćetković	Moj Svijet
+20	35	10		Greece	Freaky Fortune feat. RiskyKidd	Rise Up
+21	33	16		Italy	Emma	La Mia Città
+22	33	3		Azerbaijan	Dilara Kazimova	Start A Fire
+23	32	22		Malta	Firelight	Coming Home
+24	14	25		San Marino	Valentina Monetta	Maybe (Forse)
+25	9	17		Slovenia	Tinkara Kovač	Round and round
+26	2	14		France	TWIN TWIN	Moustache
+
+2013
+1	281	18		Denmark	Emmelie de Forest	Only Teardrops
+2	234	20		Azerbaijan	Farid Mammadov	Hold Me
+3	214	22		Ukraine	Zlata Ognevich	Gravity
+4	191	24		Norway	Margaret Berger	I Feed You My Love
+5	174	10		Russia	Dina Garipova	What If
+6	152	21		Greece	Koza Mostra feat. Agathon Iakovidis	Alcohol Is Free
+7	126	23		Italy	Marco Mengoni	L'Essenziale
+8	120	9		Malta	Gianluca	Tomorrow
+9	114	13		Netherlands	Anouk	Birds
+10	84	17		Hungary	ByeAlex	Kedvesem (Zoohacker Remix)
+11	71	3		Moldova	Aliona Moon	O Mie
+12	71	6		Belgium	Roberto Bellarosa	Love Kills
+13	65	14		Romania	Cezar	It's My Life
+14	62	16		Sweden	Robin Stjernberg	You
+15	50	25		Georgia	Nodi Tatishvili & Sophie Gelovani	Waterfall
+16	48	8		Belarus	Alyona Lanskaya	Solayoh
+17	47	19		Iceland	Eythor Ingi	Ég Á Líf
+18	41	12		Armenia	Dorians	Lonely Planet
+19	23	15		United Kingdom	Bonnie Tyler	Believe In Me
+20	19	7		Estonia	Birgit	Et Uus Saaks Alguse
+21	18	11		Germany	Cascada	Glorious
+22	17	2		Lithuania	Andrius Pojavis	Something
+23	14	1		France	Amandine Bourgeois	L'enfer Et Moi
+24	13	4		Finland	Krista Siegfrids	Marry Me
+25	8	5		Spain	ESDM	Contigo Hasta El Final (With You Until The End)
+26	5	26		Ireland	Ryan Dolan	Only Love Survives
+
+2012
+1	372	17		Sweden	Loreen	Euphoria
+2	259	6		Russia	Buranovskiye Babushki	Party For Everybody
+3	214	24		Serbia	Željko Joksimović	Nije Ljubav Stvar
+4	150	13		Azerbaijan	Sabina Babayeva	When The Music Dies
+5	146	3		Albania	Rona Nishliu	Suus
+6	120	11		Estonia	Ott Lepland	Kuula
+7	112	18		Turkey	Can Bonomo	Love Me Back
+8	110	20		Germany	Roman Lob	Standing Still
+9	101	10		Italy	Nina Zilli	L'Amore È Femmina (Out Of Love)
+10	97	19		Spain	Pastora Soler	Quédate Conmigo (Stay With Me)
+11	81	26		Moldova	Pasha Parfeny	Lăutar
+12	71	14		Romania	Mandinga	Zaleilah
+13	71	22		FYR Macedonia	Kaliopi	Crno I Belo
+14	70	4		Lithuania	Donny Montell	Love Is Blind
+15	65	25		Ukraine	Gaitana	Be My Guest
+16	65	8		Cyprus	Ivi Adamou	La La Love
+17	64	16		Greece	Eleftheria Eleftheriou	Aphrodisiac
+18	55	5		Bosnia & Herzegovina	Maya Sar	Korake ti znam
+19	46	23		Ireland	Jedward	Waterline
+20	46	7		Iceland	Greta Salóme & Jónsi	Never Forget
+21	41	21		Malta	Kurt Calleja	This Is The Night
+22	21	9		France	Anggun	Echo (You And I)
+23	21	15		Denmark	Soluna Samay	Should've Known Better
+24	19	2		Hungary	Compact Disco	Sound Of Our Hearts
+25	12	1		United Kingdom	Engelbert Humperdinck	Love Will Set You Free
+26	7	12		Norway	Tooji	Stay

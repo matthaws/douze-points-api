@@ -37,7 +37,7 @@ hungary = Country.create!(name: "Hungary", flag_url: "#{amazon_path}heart_flags/
 iceland = Country.create!(name: "Iceland", flag_url: "#{amazon_path}heart_flags/iceland.png")
 ireland = Country.create!(name: "Ireland", flag_url: "#{amazon_path}heart_flags/ireland.png")
 israel = Country.create!(name: "Israel", flag_url: "#{amazon_path}flags/Israel.jpg")
-italy = Country.create!(name: "italy", flag_url: "#{amazon_path}heart_flags/italy.png", big_five: true)
+italy = Country.create!(name: "Italy", flag_url: "#{amazon_path}heart_flags/italy.png", big_five: true)
 latvia = Country.create!(name: "Latvia", flag_url: "#{amazon_path}heart_flags/latvia.png")
 lithuania = Country.create!(name: "Lithuania", flag_url: "#{amazon_path}heart_flags/lithuania.png")
 macedonia = Country.create!(name: "Macedonia", flag_url: "#{amazon_path}heart_flags/macedonia.png")
@@ -353,4 +353,299 @@ twentyseventeen.entries.create!(
   country: spain,
   language: "English/Spanish",
   video_url: "https://www.youtube.com/watch?v=9jO32_trJq4"
+)
+
+twentysixteen = Contest.new
+twentysixteen.year = 2016
+twentysixteen.location = "Stockholm, Sweden"
+twentysixteen.host_country = sweden
+twentysixteen.save!
+
+jamala = twentysixteen.entries.create!(
+  artist: "Jamala",
+  song_title: "1944",
+  final_ranking: 1,
+  final_score: 534,
+  finalist: true,
+  country: ukraine,
+  language: "English/Crimean/Tartar",
+  video_url: "VCG2rw4ZXTY"
+)
+
+twentysixteen.winning_entry = jamala
+twentysixteen.save!
+
+twentysixteen.entries.create!(
+  artist: "Dami Im",
+  song_title: "Sound of Silence",
+  final_ranking: 2,
+  final_score: 511,
+  finalist: true,
+  country: australia,
+  language: "English",
+  video_url: "2EG_Jtw4OyU"
+)
+
+twentysixteen.entries.create!(
+  artist: "Sergey Lazarev",
+  song_title: "You Are The Only One",
+  final_ranking: 3,
+  final_score: 491,
+  finalist: true,
+  country: russia,
+  language: "English",
+  video_url: "gHgxi57Um0w"
+)
+
+twentysixteen.entries.create!(
+  artist: "Poli Genova",
+  song_title: "If Love Was a Crime",
+  final_ranking: 4,
+  final_score: 307,
+  finalist: true,
+  country: bulgaria,
+  language: "English/Bulgarian",
+  video_url: "yKsNfccUTuk"
+)
+
+twentysixteen.entries.create!(
+  artist: "Frans",
+  song_title: "If I Were Sorry",
+  final_ranking: 5,
+  final_score: 261,
+  finalist: true,
+  country: sweden,
+  language: "English",
+  video_url: "h8D7KNFtTlE"
+)
+
+twentysixteen.entries.create!(
+  artist: "Amir",
+  song_title: "J'ai cherché",
+  final_ranking: 6,
+  final_score: 257,
+  finalist: true,
+  country: france,
+  language: "French",
+  video_url: "boYQovCybYQ"
+)
+
+twentysixteen.entries.create!(
+  artist: "Iveta Mukuchyan",
+  song_title: "LoveWave",
+  final_ranking: 7,
+  final_score: 249,
+  finalist: true,
+  country: armenia,
+  language: "English",
+  video_url: "l7m3wOGhEvE"
+)
+
+twentysixteen.entries.create!(
+  artist: "Michał Szpak",
+  song_title: "Color of Your Life",
+  final_ranking: 8,
+  final_score: 229,
+  finalist: true,
+  country: poland,
+  language: "English",
+  video_url: "Sjup9PJ25LM"
+)
+
+twentysixteen.entries.create!(
+  artist: "Donny Montell",
+  song_title: "I've Been Waiting For This",
+  final_ranking: 9,
+  final_score: 200,
+  finalist: true,
+  country: lithuania,
+  language: "English",
+  video_url: "7cAIsbUczSI"
+)
+
+twentysixteen.entries.create!(
+  artist: "Laura Tesoro",
+  song_title: "What's The Pressure",
+  final_ranking: 10,
+  final_score: 181,
+  finalist: true,
+  country: belgium,
+  language: "English",
+  video_url: "iP3USrYpr5w"
+)
+
+twentysixteen.entries.create!(
+  artist: "Douwe Bob",
+  song_title: "Slow Down",
+  final_ranking: 11,
+  final_score: 153,
+  finalist: true,
+  country: netherlands,
+  language: "English",
+  video_url: "vytgHD2pqyk"
+)
+
+twentysixteen.entries.create!(
+  artist: "Ira Losco",
+  song_title: "Walk On Water",
+  final_ranking: 12,
+  final_score: 153,
+  finalist: true,
+  country: malta,
+  language: "English",
+  video_url: "9J7O5BGqPDk"
+)
+
+twentysixteen.entries.create!(
+  artist: "ZOË",
+  song_title: "Loin d'ici",
+  final_ranking: 13,
+  final_score: 151,
+  finalist: true,
+  country: austria,
+  language: "French",
+  video_url: "ZaPGwvAis3U"
+)
+
+twentysixteen.entries.create!(
+  artist: "Hovi Star",
+  song_title: "Made of Stars",
+  final_ranking: 14,
+  final_score: 135,
+  finalist: true,
+  country: israel,
+  language: "English",
+  video_url: "SpWKfcjXcp0"
+)
+
+twentysixteen.entries.create!(
+  artist: "Justs",
+  song_title: "Heartbeart",
+  final_ranking: 15,
+  final_score: 132,
+  finalist: true,
+  country: latvia,
+  language: "English",
+  video_url: "NVcKNzmvfxI"
+)
+
+twentysixteen.entries.create!(
+  artist: "Francesca Michielin",
+  song_title: "No Degree of Separation",
+  final_ranking: 16,
+  final_score: 124,
+  finalist: true,
+  country: italy,
+  language: "Italian/English",
+  video_url: "WySSLip5uzc"
+)
+
+twentysixteen.entries.create!(
+  artist: "Samra",
+  song_title: "Miracle",
+  final_ranking: 17,
+  final_score: 117,
+  finalist: true,
+  country: azerbaijan,
+  language: "English",
+  video_url: "Dix6XJ_Uo-w"
+)
+
+twentysixteen.entries.create!(
+  artist: "ZAA Sanja Vučić",
+  song_title: "Goodbye (Shelter)",
+  final_ranking: 18,
+  final_score: 115,
+  finalist: true,
+  country: serbia,
+  language: "English",
+  video_url: "mqh-XVcjmHc"
+)
+
+twentysixteen.entries.create!(
+  artist: "Freddie",
+  song_title: "Pioneer",
+  final_ranking: 19,
+  final_score: 108,
+  finalist: true,
+  country: hungary,
+  language: "English",
+  video_url: "NU8wso6fngM"
+)
+
+twentysixteen.entries.create!(
+  artist: "Nika Kocharov and Young Georgian Lolitaz",
+  song_title: "Midnight Gold",
+  final_ranking: 20,
+  final_score: 104,
+  finalist: true,
+  country: georgia,
+  language: "English",
+  video_url: "y5VynlW6Xeo"
+)
+
+twentysixteen.entries.create!(
+  artist: "Minus One",
+  song_title: "Alter Ego",
+  final_ranking: 21,
+  final_score: 96,
+  finalist: true,
+  country: cyprus,
+  language: "English",
+  video_url: "k8LcNrqiIFE"
+)
+
+twentysixteen.entries.create!(
+  artist: "Barei",
+  song_title: "Say Yay!",
+  final_ranking: 22,
+  final_score: 77,
+  finalist: true,
+  country: spain,
+  language: "English",
+  video_url: "k0I37W3RN_U"
+)
+
+twentysixteen.entries.create!(
+  artist: "Nina Kraljić",
+  song_title: "Lighthouse",
+  final_ranking: 23,
+  final_score: 73,
+  finalist: true,
+  country: croatia,
+  language: "English",
+  video_url: "yBrADG8lWFY"
+)
+
+twentysixteen.entries.create!(
+  artist: "Joe and Jake",
+  song_title: "You're Not Alone",
+  final_ranking: 24,
+  final_score: 62,
+  finalist: true,
+  country: uk,
+  language: "English",
+  video_url: "C5VvsLEd1TI"
+)
+
+twentysixteen.entries.create!(
+  artist: "Gabriela Gunčíková",
+  song_title: "I Stand",
+  final_ranking: 25,
+  final_score: 41,
+  finalist: true,
+  country: czech,
+  language: "English",
+  video_url: "0L2imZRo6NY"
+)
+
+twentysixteen.entries.create!(
+  artist: "Jamie-Lee",
+  song_title: "Ghost",
+  final_ranking: 26,
+  final_score: 11,
+  finalist: true,
+  country: germany,
+  language: "English",
+  video_url: "f-Z7pKopP9s"
 )

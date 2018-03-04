@@ -1,6 +1,8 @@
+require "base64"
 class AuthController < ApplicationController
   def create
-    @graph = Koala::Facebook::API.new(request.headers['Authorization'])
+    code = Base64.decode64(request.headers['Authorization'].split(" ")[1])
+    @graph = Koala::Facebook::API.new(code)
     @user = User.from_facebook(@graph)
     if @user.persisted?
       @countries = []

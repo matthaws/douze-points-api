@@ -15,6 +15,9 @@ class Country < ApplicationRecord
   validates :name, uniqueness: true
 
   has_many :entries
+  has_many :contests,
+    through: :entries,
+    source: :contest
 
   has_many :hosted_contests,
     class_name: :Contest,

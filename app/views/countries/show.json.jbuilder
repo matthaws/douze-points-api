@@ -1,7 +1,7 @@
 json.country do
   json.partial! 'countries/country', country: @country
   json.entry_ids @country.entries.pluck(:id)
-  json.hosted_years = @country.hosted_contests.pluck(:year)
+  json.hosted_years @country.hosted_contests.pluck(:year)
 end
 
 json.entries do

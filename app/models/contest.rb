@@ -21,6 +21,10 @@ class Contest < ApplicationRecord
 
   has_many :entries
 
+  has_many :participating_countries,
+    through: :entries,
+    source: :country
+
   belongs_to :winning_entry,
     class_name: :Entry,
     optional: true

@@ -649,3 +649,300 @@ twentysixteen.entries.create!(
   language: "English",
   video_url: "f-Z7pKopP9s"
 )
+
+twentyeighteen = Contest.new
+twentyeighteen.year = 2018
+twentyeighteen.location = "Lisbon, Portugal"
+twentyeighteen.host_country = portugal
+twentyeighteen.save!
+
+twentyeighteen.entries.create!(
+  artist: "Christabelle",
+  song_title: "Taboo",
+  country: malta,
+  language: "English",
+  video_url: "oyrC8jJ8eb8"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Saara Alto",
+  song_title: "Monsters",
+  country: finland,
+  language: "English",
+  video_url: "eEeIeQ-j2zk"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Gromee feat. Lukas Meijer",
+  song_title: "Light Me Up",
+  country: poland,
+  language: "English",
+  video_url: "yfUJ2eDm6ng"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Sennek",
+  song_title: "A Matter Of Time",
+  country: belgium,
+  language: "English",
+  video_url: "6DGf9TMehi0"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Ari Ólafsson",
+  song_title: "Our Choice",
+  country: iceland,
+  language: "English",
+  video_url: "nloweviD_90"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Franka",
+  song_title: "Crazy",
+  country: croatia,
+  language: "English",
+  video_url: "19Yo86KCd0w"
+)
+
+twentyeighteen.entries.create!(
+  artist: "SuRie",
+  song_title: "Storm",
+  country: uk,
+  finalist: true,
+  language: "English",
+  video_url: "K--kIdOpbJM"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Waylon",
+  song_title: "Outlaw In 'Em",
+  country: netherlands,
+  language: "English",
+  video_url: "kLL9IlQ_7OA"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Cláudia Pascoal",
+  song_title: "O Jardim",
+  country: portugal,
+  language: "Portuguese",
+  video_url: "kaVp4El9p3s"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Jessica Mauboy",
+  song_title: "We Got Love",
+  country: australia,
+  language: "English",
+  video_url: "J4XZxbrvepw"
+)
+
+twentyeighteen.entries.create!(
+  artist: "MELOVIN",
+  song_title: "Under The Ladder",
+  country: ukraine,
+  language: "English",
+  video_url: "E1yoAtjhkzQ"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Cesár Sampson",
+  song_title: "Nobody But You",
+  country: austria,
+  language: "English",
+  video_url: "I8MyztgOTv8"
+)
+
+twentyeighteen.entries.create!(
+  artist: "ALEKSEEV",
+  song_title: "FOREVER",
+  country: belarus,
+  language: "English",
+  video_url: "YU2My4BPX34"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Yianna Terzi",
+  song_title: "Oneiro Mou",
+  country: greece,
+  language: "Greek",
+  video_url: "z6hvV9-Gi_w"
+)
+
+twentyeighteen.entries.create!(
+  artist: "AWS",
+  song_title: "Viszlát Nyár",
+  country: hungary,
+  language: "Hungarian",
+  video_url: "6unRU5ZHbqY"
+)
+
+twentyeighteen.entries.create!(
+  artist: "The Humans",
+  song_title: "Goodbye",
+  country: romania,
+  language: "English",
+  video_url: "nK7ggCjA98g"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Elina Nechayeva",
+  song_title: "La Forza",
+  country: estonia,
+  language: "Italian",
+  video_url: "76KOUIfDry8"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Ermal Meta & Fabrizio Moro",
+  song_title: "Non Mi Avete Fatto Niente",
+  country: italy,
+  finalist: true,
+  language: "Italian",
+  video_url: "zguJGdoPPnw"
+)
+
+twentyeighteen.entries.create!(
+  artist: "DoReDos",
+  song_title: "My Lucky Day",
+  country: moldova,
+  language: "English",
+  video_url: "Kg3ecHrFM_4"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Michael Schulte",
+  song_title: "You Let Me Walk Alone",
+  country: germany,
+  language: "English",
+  video_url: "o_xTETHwIQg"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Sanja Ilić & Balkanika",
+  song_title: "Nova Deca",
+  country: serbia,
+  language: "Serbian",
+  video_url: "WkOFnIjGrkw"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Rasmussen",
+  song_title: "Higher Ground",
+  country: denmark,
+  language: "English",
+  video_url: "XeraDSzu0nw"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Zibbz",
+  song_title: "Stones",
+  country: switzerland,
+  language: "English",
+  video_url: "jXOlPGnkZFY"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Alfred and Amaia",
+  song_title: "Tu Canción",
+  country: spain,
+  finalist: true,
+  language: "Spanish",
+  video_url: "nO4mDiJRH6Q"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Mikolas Josef",
+  song_title: "Lie To Me",
+  country: czech,
+  language: "English",
+  video_url: "k6_oxE2MxZE"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Madame Monsieur",
+  song_title: "Mercy",
+  country: france,
+  language: "French",
+  video_url: "L7dFXOyvWVE"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Lea Sirk",
+  song_title: "Hvala, ne",
+  country: slovenia,
+  language: "Slovenian",
+  video_url: "kiysnSG6a3I"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Laura Rizzotto",
+  song_title: "Funny Girl",
+  country: latvia,
+  language: "English",
+  video_url: "uBlZsGxeXk4"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Julia Samoylova",
+  song_title: "I Won't Break",
+  country: russia,
+  language: "English",
+  video_url: "bgBwbr_fUxA"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Vanja Radovanovic",
+  song_title: "Inje",
+  country: montenegro,
+  language: "Montenegrin",
+  video_url: "qxJoxbo9lCQ"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Netta",
+  song_title: "TOY",
+  country: israel,
+  language: "English",
+  video_url: "CziHrYYSyPc"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Eye Cue",
+  song_title: "Lost And Found",
+  country: macedonia,
+  language: "English",
+  video_url: "hJ8vStigz7k"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Alexander Rybak",
+  song_title: "That's How You Write A Song",
+  country: norway,
+  language: "English",
+  video_url: "oicLsTZRp28"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Benjamin Ingrosso",
+  song_title: "Dance You Off",
+  country: sweden,
+  language: "English",
+  video_url: "U2UmYBkszOA"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Jessika (feat. Jenifer Brening)",
+  song_title: "Who We Are",
+  country: san_marino,
+  language: "English",
+  video_url: "ZNflc1Zcw2A"
+)
+
+twentyeighteen.entries.create!(
+  artist: "Ryan O'Shaughnessy",
+  song_title: "Together",
+  country: ireland,
+  language: "English",
+  video_url: "XAEjQXzW4Uc"
+)

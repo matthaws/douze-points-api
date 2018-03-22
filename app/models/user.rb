@@ -32,14 +32,12 @@ class User < ApplicationRecord
       user.uid = uid
       user.username = username
       user.avatar_url = photo_url
-      debugger
       user.save!
       user.create_default_scoresheets
     end
   end
 
   def create_default_scoresheets
-    debugger
     Scoresheet.create(
       user_id: self.id,
       name: 'Default Scoresheet (2018)',

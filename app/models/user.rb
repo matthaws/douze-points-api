@@ -24,8 +24,6 @@ class User < ApplicationRecord
 
   has_many :comments
 
-  after_create :create_default_scoresheets
-
   def self.from_facebook(graph)
     uid = graph.get_object('me')['id']
     username = graph.get_object('me')['name']
@@ -34,17 +32,18 @@ class User < ApplicationRecord
       user.uid = uid
       user.username = username
       user.avatar_url = photo_url
+      debugger
       user.save!
+      user.create_default_scoresheets
     end
   end
 
-  private
-
   def create_default_scoresheets
+    debugger
     Scoresheet.create(
       user_id: self.id,
       name: 'Default Scoresheet (2018)',
-      contest_id: Contest.where(year: 2018)
+      contest: Contest.find_by_year(2018)
     )
   end
 

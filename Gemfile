@@ -28,9 +28,9 @@ gem 'pry-rails'
 gem 'jwt'
 gem 'figaro'
 gem 'koala'
-gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
 group :development, :test do
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 end
 

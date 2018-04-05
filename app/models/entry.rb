@@ -26,4 +26,8 @@ class Entry < ApplicationRecord
 
   has_many :comments, as: :commentable
 
+  has_many :comment_users,
+    through: :comments,
+    source: :user
+
 end

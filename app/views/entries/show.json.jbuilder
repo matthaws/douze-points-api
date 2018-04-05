@@ -1,6 +1,6 @@
 json.entry do
   json.partial! 'entries/entry', entry: @entry
-  json.comment_ids @entry.comments.pluck(:id)
+
 end
 
 json.contest do
